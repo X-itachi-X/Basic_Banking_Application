@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="BANKING SYSTEM"
+        android:textAllCaps="false"
+        android:textColor="#E66F6F"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/designed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E66F6F"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harshit"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#E66F6F"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</RelativeLayout>

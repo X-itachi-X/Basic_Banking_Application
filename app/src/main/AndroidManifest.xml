@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicbankingapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BasicBankingApplication">
+        <activity android:name="com.example.basicbankingapplication.MainActivity"
+            android:screenOrientation="portrait"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.basicbankingapplication.Userlist"
+            android:screenOrientation="portrait"
+            android:label="Banking System"
+            >
+        </activity>
+
+        <activity android:name="com.example.basicbankingapplication.Userdata"
+            android:parentActivityName="com.example.basicbankingapplication.Userlist"
+            android:screenOrientation="portrait"
+            android:label="User Details"
+            />
+
+        <activity android:name="com.example.basicbankingapplication.SendToUser"
+            android:screenOrientation="portrait"
+            android:label="Transfer Money"
+           />
+
+        <activity android:name="com.example.basicbankingapplication.HistoryList"
+            android:parentActivityName="com.example.basicbankingapplication.Userlist"
+            android:screenOrientation="portrait"
+            android:label="Transactions"
+            />
+
+
+
+    </application>
+
+</manifest>

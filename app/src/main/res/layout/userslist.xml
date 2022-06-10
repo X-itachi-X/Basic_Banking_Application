@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/CustName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Name: "
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/AccNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CustName"
+            android:layout_marginTop="1dp"
+            android:text="Account Number: "
+            android:textStyle="italic"
+
+            />
+
+        <TextView
+            android:id="@+id/AccBal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AccNum"
+            android:layout_marginTop="1dp"
+            android:text="Balance: "
+            android:textStyle="italic"
+
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

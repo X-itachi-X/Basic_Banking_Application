@@ -1,5 +1,7 @@
 # Basic_Banking_Application
 
+[![](https://visitcount.itsvg.in/api?id=BBA&label=Repo%20Views&icon=7&pretty=true)](https://visitcount.itsvg.in)
+
 ## GRIP PROGRAM by The Sparks Foundation :man_student:
 <hr>
 This application comes under the GRIP program by The Sparks Foundation
